@@ -30,7 +30,7 @@ module TestBoard
           routing_specs: false,
           controller_spec: true,
           request_specs: false
-      g.fixture_replacement :facrory_girl, dir: 'spec/factories'
+      g.fixture_replacement :factory_girl, dir: 'spec/factories'
 
     end
   end
